@@ -1,6 +1,6 @@
 @charset "UTF-8";
 * {
-  font-family: "Poppins";
+  font-family: "Poppins" "Times New Roman", Times, serif;
 }
 
 header {
@@ -9,7 +9,8 @@ header {
 }
 
 .logo a {
-  color: #820000;
+  color: #480000;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -21,6 +22,10 @@ header {
 
 section {
   background-color: #84a4b4;
+}
+
+h5, .h5 {
+  font-weight: bold;
 }
 
 /*!

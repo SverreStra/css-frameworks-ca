@@ -1,26 +1,38 @@
+$primary-colour: #480000;
+$secondary-color: #f2f2f2;
+$third-color: #020202;
+$background-color: #84a4b4;
+
+
 * {
-  font-family: 'Poppins';
+  font-family: 'Poppins' 'Times New Roman', Times, serif;
 }
 
 header {
-  background-color: #f2f2f2;
-  color: #020202;
+  background-color: $secondary-color;
+  color: $third-color;
 }
 
 
 .logo a {
-  color: #820000;
+  color: $primary-colour;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .active {
-  text-decoration: underline 2px #020202;
+  text-decoration: underline 2px $third-color;
   font-weight: bold;
-  color: #020202;
+  color: $third-color;
 }
 
+
 section {
-  background-color: #84a4b4;
+  background-color: $background-color;
+}
+
+h5 {
+  font-weight: bold;
 }
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
