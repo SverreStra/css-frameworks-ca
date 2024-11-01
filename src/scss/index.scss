@@ -1,9 +1,5 @@
-$primary-colour: #480000;
-$secondary-color: #f2f2f2;
-$third-color: #020202;
-$background-color: #84a4b4;
-
-
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
 * {
   font-family: 'Poppins' 'Times New Roman', Times, serif;
 }
@@ -34,5 +30,3 @@ section {
 h5 {
   font-weight: bold;
 }
-
-@import "../../node_modules/bootstrap/scss/bootstrap";
